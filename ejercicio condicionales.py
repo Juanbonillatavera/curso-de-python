@@ -1,6 +1,6 @@
-puede_volar=str(input("¿Puede volar? responda si o no"))
-es_humano=str(input("¿Es humano? responda si o no"))
-tiene_mascara=str(input("¿Tiene mascara? responda si o no"))
+puede_volar=str(input("¿Puede volar? responda si o no  "))
+es_humano=str(input("¿Es humano? responda si o no   "))
+tiene_mascara=str(input("¿Tiene mascara? responda si o no   "))
 
 
 if puede_volar=="si":
