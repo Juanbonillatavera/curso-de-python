@@ -13,11 +13,18 @@ plaquetaspermitidad= 150000
 
 if  edad >= edadpermitida or edad <= edadpermitida2:
     if peso > pesopermitido:
-        if pulso >= pulsopermitido or pulso <= pulsopermitidomaximo:
-            if plaquetas > plaquetaspermitidad:
-                print("es apto para donar sangre")
-else:                
-     print("no es apto para donar sangre")       
+        print("es apto para donar")
+    else:                
+            print("no es apto para donar sangre")
+                 
+    if pulso >= pulsopermitido or pulso <= pulsopermitidomaximo:
+        print("es apto para donar")
+    else:                
+        print("no es apto para donar sangre")
+    if plaquetas > plaquetaspermitidad:
+        print("es apto para donar sangre")
+    else:                
+        print("no es apto para donar sangre")       
         
 
  
