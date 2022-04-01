@@ -7,3 +7,4 @@ if (temparura>51):
  
 else: 
     print("es muy fria") 
+    
