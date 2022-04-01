@@ -8,4 +8,4 @@ num_u= palabra.count("u")
 
 metric= palabra_length*(num_a+ num_e+ num_i+num_o+num_u)
 
-print(metric)
+print(metric) 
