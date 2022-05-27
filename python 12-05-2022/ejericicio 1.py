@@ -1,7 +1,8 @@
 lista1=[]
 lista2=[]
-#valor=int(input('escriba un numero:  '))
-for x in range(2):
+#6
+# 1valor=int(input('escriba un numero:  ')) si se agrega esto otra vez sale error
+for x in range(10):
     valor=int(input('escriba un numero:  '))
     
     if valor%2==0:
@@ -10,4 +11,4 @@ for x in range(2):
         lista2.append(valor)
  
 print('lista 1',lista1)
-print(lista2)
+print('lista 2',lista2)

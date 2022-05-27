@@ -1,0 +1,16 @@
+from datetime import date
+from hashlib import new
+
+
+db.productos.insert([
+{"producto":"pc lenovo",
+ "precio":1450000,
+ "garantia":"false"
+ "fecha":new date("11/06"2016),
+ },
+{"producto":"pc hp",
+ "precio":13542140,
+ "garantia":"true"
+ "fecha":new date("11/07"2018),
+}
+])

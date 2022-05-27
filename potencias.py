@@ -9,3 +9,4 @@ def generar_potencias(base,exponente):
     return resultado
 
 print(generar_potencias(base,exponente))
+
